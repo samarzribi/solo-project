@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient( to left,bisque, white);
+  }
+  
+  img{
+    height: 100%;
+    width: max-content;
+  }
+  
+  #catName{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  
+  #catInfo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  p{
+    width: 400px;
+    background-color: bisque;
+  }
+  
+  button{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+  }
+  
+  button:hover{
+  background-color: greenyellow; 
+  }
+  
+  .bigDiv{
+  background-color: bisque;
+  width: 100%;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  }
