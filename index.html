@@ -1,36 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="projet.css">
-  <title>shop</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Marwa.projekt
+
+    </title>
+    
 </head>
+<body>   
+    <header>   
+        <h1>Formular </h1>
+        <button><a href="projet.html">home</a></button>
+        
+    </header>
+    <main > 
+   
 
-<body>
+   <h1> füllen sie das Formular aus </h1>
+   <form>
+    <label for="fname">First name *:</label><br>
+    <input type="text" id="fname *" name="fname" ><br>
+    <label for="lname">Last name *:</label><br>
+    <input type="text" id="lname" name="lname" ><br>
 
-  <div class="bigDiv">
-    <p id="catName">Cats For Adoption</p>
-    <img src="https://www.purina.co.uk/sites/default/files/2023-03/Hero%20Pedigree%20Cats.jpg" alt="image" class="img1">
+    <label for="email">Enter your email *:</label><br>
+    <input type="email" id="email" name="email"><br>
+    
+    <label for="Date"> Date of birth (DD/MM/YYYY) *:</label><br>
+    <input type="date" id="date" name="date"><br>
 
-    <p id="catInfo"></p>
-    <div>
-      <button onclick="pre()">pre</button>
-      <button>adobt</button>
-      <button onclick="next()">next</button>
-      
-    </div>
+    <label for="Country"> Country of residence *:</label><br>
+    <input type="Country" id="Country" name="Country"><br>
 
-  </div>
+    <label for="number"> Phone number *:</label><br>
+    <input type="phone-number" id="number" name="number"><br>
+    
+    <label for="cars">Program of interest *:</label><br>
+
+  <select id=" Program" name="Study">
+    <option value="">choose your program </option>
+    <option value="adobt  intermediare">adapt 1</option>
+    <option value="adopt für immer">adopt 2</option>
+    <option value="vor ort">adopt 3</option>
+  </select><br>
+  <input type="submit"><br>
+
+  <select id=" Year" name="Year">
+    <option value="">Year of entry *</option>
+    <option value="2023">2023</option>
+    <option value="2024">2024</option>
+    <option value="2025">2025</option>
+  </select><br>
+  <input type="submit"><br>
+
+  <select id=" Budget" name="budget">
+    <option value=""> select a budget</option>
+    <option value="budget1">150 euro-250 euro</option>
+    <option value="budget2">250 euro-400 euro/<option>
+    <option value="Budget3">400 euro-600 euro</option>
+  </select><br>
+  <input type="submit"><br>
 
   
-  <footer>  
-    <h4>More information</h4>
-    <p4><a href="https://www.petfinder.com/cats-and-kittens/adoption/">more information here <https://a></p4>
 
-</footer>
-  <script src="projet.js"></script>
+
+
+
+  </form>
+   
+
+      
+    </main>
+   
+    
 </body>
-
 </html>

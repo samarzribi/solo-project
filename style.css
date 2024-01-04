@@ -1,0 +1,60 @@
+header {
+    padding: 15px 20px;
+    background-color: bisque;
+    color: black;
+    text-align: center;
+    text-decoration: double;
+    text-shadow: 500cm;
+    
+    font-size: xx-large;
+    margin: 15px;
+    
+    
+    }
+    main {
+    
+    display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       min-height: 90vh;
+    color: azure;
+    padding: 40px ;
+    background-image:url('katze.jpeg');
+     background-attachment: fixed; 
+     background-size:  100%; 
+       background-repeat: no-repeat;
+    }
+    footer{
+        
+        padding: 20px;
+        text-align: justify;
+        font-size: x-large;
+        color: brown;
+        margin-right: 20px;
+    max-height: max-content;
+    }
+    input,option {
+        height:40px ;
+        width: 400px;
+    
+    }
+    label{
+        color: rgb(25, 21, 21);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+    }
+    button{
+        
+            background-color: whitesmoke;
+            border-radius: 10px;
+            height: 40px;
+            width: 70px;
+            color: rgb(4, 0, 255);
+            cursor: pointer;
+          }
+          
+          button:hover{
+          background-color: greenyellow; 
+          
+          }
